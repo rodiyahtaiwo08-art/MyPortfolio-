@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <a href="#"><img src="./IMAGES/brand-logo1.png" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class="bx bx-window-close"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="bx bx-menu" onclick="openMenu()"></i>
+    </header>
+    
+    <!-- sub-header session -->
+    <section class="sub-header" id="sub-header">
+        <h1>Contact <span>Me</span></h1>
+    </section>
+   
+    <!-- contact-session -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h4 class="dot">Whatever your project may be...</h4>
+            <p>I provide thoughtful solutions through frontend development,
+user-centered design, and Arabic calligraphy—
+ensuring your ideas are transformed into a refined digital experience.</p>
+            <div class="list">
+                <li><a href="#">+2348067612250</a></li>
+                <li><a href="#">rodiyahtaiwo08@gmail.com</a></li>
+                <li><a href="#">Like,Share&Subscibe</a></li>
+            </div>
+            <div class="icons">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="#"><i class="bx bxl-youtube"></i></a>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <input type="name" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="number" placeholder="Your Mobile Number">
+                    <textarea name="" id="" cols="35" row="10" placeholder="How Can I Help You"required></textarea>
+                    <input type="submit" value="Send Message" class="submit">
+                </form>
+            </div>
+        </div>
+    </section>
+   
+    <!-- footer session -->
+    <footer class="footer">
+        <div class="attribution">
+            <p>Designed With <i class="bx bx-heart"></i> By Rodiyah</p>
+        </div>
+        <div class="move-up">
+           <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>    
+    </footer>
+    
+    <!-- J5 for toggle menu -->
+    <script>
+        var navMenu = document.getElementById("navMenu");
+        function openMenu() {
+            navMenu.style.right="0";
+        }
+        function closeMenu() {
+            navMenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

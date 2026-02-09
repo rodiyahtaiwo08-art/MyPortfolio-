@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <a href="#"><img src="./IMAGES/brand-logo1.png" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class="bx bx-window-close"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="bx bx-menu" onclick="openMenu()"></i>
+    </header>
+    
+    <!-- sub-header session -->
+    <section class="sub-header" id="sub-header">
+        <h1>About <span>Me</span></h1>
+    </section>
+   
+    <!-- about session -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./IMAGES/hijabi.png" alt="hijabi">
+        </div>
+        <div class="about-text">
+            <h4><span>I'm a</span> Design Technologist</h4>
+            <p>I’m a Muslimah frontend developer and UI/UX designer passionate about
+creating modern, accessible, and visually appealing websites.
+I enjoy turning ideas into digital experiences using clean code
+and thoughtful design.<br><br>
+Beyond design and development, I value clarity, intention, and continuous
+learning. I enjoy refining my skills, exploring new ideas, and creating
+solutions that are not only functional but also meaningful and purposeful.
+</p>
+            <a href="#" class="btn">Let's Talk</a>
+        </div>
+    </section>
+    
+    <section class="others" id="others">
+        <div class="sub-text-title">
+            <h2><span>Why</span> Me</h2>
+        </div>
+        <div class="others-img">
+            <img src="./IMAGES/brand-logo2.png" alt="">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="others-text">
+            <h2><span>As</span> a Design Technologist</h2>
+            <p>
+                -  I build responsive websites with clean code that perform seamlessly on any device.<br><br>
+                -I design intuitive interfaces that make every user interaction smooth and enjoyable.<br><br>
+                -I create personalized Arabic calligraphy that adds elegance and meaning to every design.<br><br>
+            </p>
+        </div>
+        <div>
+             <a href="#" class="btn">Hire Me</a>
+        </div>
+    </section>
+   
+    <!-- footer session -->
+    <footer class="footer">
+        <div class="attribution">
+            <p>Designed With <i class="bx bx-heart"></i> By Rodiyah</p>
+        </div>
+        <div class="move-up">
+           <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>    
+    </footer>
+    
+    <!-- J5 for toggle menu -->
+    <script>
+        var navMenu = document.getElementById("navMenu");
+        function openMenu() {
+            navMenu.style.right="0";
+        }
+        function closeMenu() {
+            navMenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

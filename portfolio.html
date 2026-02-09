@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <a href="#"><img src="./IMAGES/brand-logo1.png" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class="bx bx-window-close"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="bx bx-menu" onclick="openMenu()"></i>
+    </header>
+    
+    <!-- sub-header session -->
+    <section class="sub-header" id="sub-header">
+        <h1>Recent <span>Projects</span></h1>
+    </section>
+   
+  <!-- portfolio session-->
+    <section class="portfolio" id="portfolio">
+        <div class="sub-text-title">
+            <h2>Frontend Development <span>Projects</span></h2>
+        </div>
+        <div class="portfolio-content">
+            <div class="row">
+                <img src="./IMAGES/wp1.png" alt="wp1">
+                <div class="cover">
+                    <h5>Visual Designs</h5>
+                    <p>A thoughtful blend of frontend development, user-focused design, and Arabic calligraphy, created to elevate your online presence.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./IMAGES/wp2.png" alt="p2">
+                <div class="cover">
+                    <h5>Visual Designs</h5>
+                    <p>A thoughtful blend of frontend development, user-focused design, and Arabic calligraphy, created to elevate your online presence.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>      
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="sub-text-title">
+            <h2>UI/UX Design <span>Projects</span></h2>
+        </div>
+        <div class="portfolio-content">
+            <div class="row">
+                <img src="./IMAGES/u1.png" alt="wp1">
+                <div class="cover">
+                    <h5>Visual Designs</h5>
+                    <p>A thoughtful blend of frontend development, user-focused design, and Arabic calligraphy, created to elevate your online presence.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./IMAGES/u2.png" alt="p2">
+                <div class="cover">
+                    <h5>Visual Designs</h5>
+                    <p>A thoughtful blend of frontend development, user-focused design, and Arabic calligraphy, created to elevate your online presence.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>      
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="sub-text-title">
+            <h2>Arabic Calligraphy Design <span>Projects</span></h2>
+        </div>
+        <div class="portfolio-content">
+            <div class="row">
+                <img src="./IMAGES/ac1.png" alt="wp1">
+                <div class="cover">
+                    <h5>Visual Designs</h5>
+                    <p>A thoughtful blend of frontend development, user-focused design, and Arabic calligraphy, created to elevate your online presence.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./IMAGES/ac2.png" alt="p2">
+                <div class="cover">
+                    <h5>Visual Designs</h5>
+                    <p>A thoughtful blend of frontend development, user-focused design, and Arabic calligraphy, created to elevate your online presence.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>      
+    </section>
+    
+    <!-- footer session -->
+    <footer class="footer">
+        <div class="attribution">
+            <p>Designed With <i class="bx bx-heart"></i> By Radiyah</p>
+        </div>
+        <div class="move-up">
+           <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>    
+    </footer>
+    
+    <!-- J5 for toggle menu -->
+    <script>
+        var navMenu = document.getElementById("navMenu");
+        function openMenu() {
+            navMenu.style.right="0";
+        }
+        function closeMenu() {
+            navMenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

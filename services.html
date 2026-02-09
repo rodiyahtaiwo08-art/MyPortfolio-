@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <a href="#"><img src="./IMAGES/brand-logo1.png" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class="bx bx-window-close"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="bx bx-menu" onclick="openMenu()"></i>
+    </header>
+    
+    <!-- sub-header session -->
+    <section class="sub-header" id="sub-header">
+        <h1>My <span>Services</span></h1>
+    </section>
+   
+    <section class="services" id="services">
+     <div class="sevices-content">
+        <div class="text-title">
+            <h2>What I <span>Do?</span></h2>         
+        </div>
+        <div class="sevices-content">
+            <div class="box">
+            <div class="icons">
+                <i class="bx bx-code"></i>
+            </div>
+            <h1>Frontend Development</h1>
+            <p>I build responsive and interactive websites using modern frontend
+technologies. My focus is on clean code, performance, and designs
+that work smoothly across all devices.</p>
+            <a href="#" class="btn">Start a Project</a>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <i class="bx bx-pen"></i>
+            </div>
+            <h1>UI/UX Design</h1>
+            <p>I design user-friendly interfaces with a focus on usability and
+simplicity. I aim to create experiences that feel intuitive,
+clean, and enjoyable for users.</p>
+            <a href="#" class="btn">Start a Project</a>
+        </div>
+        <div class="box">
+            <div class="icons">
+                <i class="bx bx-devices"></i>
+            </div>
+            <h1>Arabic Calligraphy Design</h1>
+            <p>I create personalized Arabic calligraphy designs for Muslim names,
+combining elegance, balance, and Islamic aesthetics to produce meaningful and beautiful name art.</p>
+            <a href="#" class="btn">Start a Project</a>
+        </div>
+    </div>  
+    </section>
+    
+    <!-- footer session -->
+    <footer class="footer">
+        <div class="attribution">
+            <p>Designed With <i class="bx bx-heart"></i> By Rodiyah</p>
+        </div>
+        <div class="move-up">
+           <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>    
+    </footer>
+    
+    <!-- J5 for toggle menu -->
+    <script>
+        var navMenu = document.getElementById("navMenu");
+        function openMenu() {
+            navMenu.style.right="0";
+        }
+        function closeMenu() {
+            navMenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
